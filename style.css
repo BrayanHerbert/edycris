@@ -19,11 +19,21 @@
     --color6: #E8BCB9;
  }
  body{
-    background-image: url(imagens/imagem6.jpg);
-    background-attachment: fixed;
+       background-image: url(imagens/imagem7.jpg);
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+       
  }
+ abbr{
+   text-decoration: none;
+ }
+.v1{
+   display: block;
+   margin: auto;
+}
+
  header{
-    background-image: linear-gradient(to top, var(--color1), var(--color3));
+    background-image: linear-gradient(to top, var(--color1), var(--color2));
     
 
  }
@@ -37,7 +47,7 @@
     text-align: center;
     color: var(--color6);
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
  nav{
     background-color: var(--color1);
@@ -48,16 +58,23 @@
     color: white;
     text-decoration: none;
     padding-left: 10px;
+    padding: 20px;
  }
  a:hover{
     background-color: var(--color3);
     padding: 20px;
+    border-radius: 30px;
+    transition-duration: .5s;
     
  }
  main{
-    background-color: rgba(255, 255, 255, 0.829);
-    margin: 0px 200px;
+    background-color: transparent;
+    margin: 0px 80px;
  }
+ 
+
+ 
+ 
  .p1{
     background-color: black;
     text-align: center;
@@ -67,13 +84,21 @@ main h1{
     text-align: center;
     background-image: linear-gradient(to right, var(--color3), var(--color2));
     color: var(--color6);
-    padding: 10px;
+     padding: 10px;
+    margin-left: -80px;
+    margin-right: -80px;
+    
     
 }
 main h2{
+    background-color: #451952;
+    color: #E8BCB9;
+    padding: 20px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+     margin-left: 30px;
+     border-radius: 10px 10px 0px 0px;
+    
 }
 main h3{
     text-align: center;
@@ -87,14 +112,45 @@ main h3{
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
 }
-#s1{
-    margin-left: 30px;
-    margin-bottom: 20px;
+section ul{
+   margin-left: 30px;
 }
+.img{
+   display: block;
+   margin: auto;
+   border: 1px solid black;
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.555);
+}
+.img2{
+   display: block;
+   margin: auto;
+   margin-top: 20px;
+   border: 1px solid black;
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.555);
+}
+
+main section{
+   background-color: white;
+   margin-left: 30px;
+   
+}
+ul{
+   height: 90px;
+  
+   
+}
+
 footer{
     text-align: center;
     background-color: black;
     color: white;
     margin-top: 50px;
-    height: 40px;
+    
+    padding-top: 20px;
+}
+footer p{
+ padding-top: 30px;
+ text-align: right;
+ margin-top: 60px;
+
 }
