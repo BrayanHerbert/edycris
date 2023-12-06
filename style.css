@@ -5,6 +5,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+@font-face {
+   font-family: 'vibe';
+   src: url(font/Night\ Vibes\ Free\ Version.ttf);
+
+
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -19,8 +27,9 @@
     --color6: #E8BCB9;
  }
  body{
-       background-image: url(imagens/imagem7.jpg);
+       background-image: url(imagens/background-imagem.jpg);
        background-attachment: fixed;
+       background-position: center center;
        background-repeat: no-repeat;
        
  }
@@ -34,6 +43,7 @@
 
  header{
     background-image: linear-gradient(to top, var(--color1), var(--color2));
+    height: 173px;
     
 
  }
@@ -41,37 +51,47 @@
     text-align: center;
     color: var(--color6);
     padding-top: 20px;
+    font-family: 'vibe', sens-serif;
+    font-size: 70px;
 
  }
  header p{
     text-align: center;
     color: var(--color6);
-    padding-top: 20px;
-    padding-bottom: 30px;,
-}
- nav{
-    background-color: var(--color1);
+    padding-top: 30px;
     padding-bottom: 30px;
-    
- }
- nav a{
-    color: white;
-    text-decoration: none;
-    padding-left: 10px;
-    padding: 20px;
- }
- a:hover{
-    background-color: var(--color3);
-    padding: 20px;
-    border-radius: 30px;
-    transition-duration: .5s;
-    
+}
+nav{
+   background-color: #1D1A39;
+   padding-bottom: 20px;
+}
+nav > a{
+   text-decoration: none;
+   padding: 20px;
+   color: #E8BCB9;
+   transition-duration: .7s;
+   border-radius: 30px;
+   
+}
+nav > a:hover{
+background-color: var(--color3);
+
+
+  
+   
+}
+ a:active{
+   color: var(--color4);
+   transition-duration: .1s;
+   background-color: #e8bcb936;
  }
  main{
     background-color: transparent;
     margin: 0px 80px;
  }
- 
+ .text1{
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.726);
+ }
 
  
  
@@ -82,9 +102,13 @@
  }
 main h1{
     text-align: center;
+    
+    font-family: serif;
     background-image: linear-gradient(to right, var(--color3), var(--color2));
-    color: var(--color6);
+    color: white;
      padding: 10px;
+
+     
     margin-left: -80px;
     margin-right: -80px;
     
@@ -99,13 +123,14 @@ main h2{
      margin-left: 30px;
      border-radius: 10px 10px 0px 0px;
     
+    
 }
 main h3{
     text-align: center;
     color: var(--color6);
     background-image: linear-gradient(to right, var(--color1), var(--color2), var(--color3));  
-    margin-left: 200px;
-    margin-right: 200px;
+   
+  
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 30px;
@@ -115,17 +140,24 @@ main h3{
 section ul{
    margin-left: 30px;
 }
+section{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   box-shadow: 0px 0px 8px black
+}
+
 .img{
    display: block;
    margin: auto;
-   border: 1px solid black;
+   
+   border: 1px solid rgb(0, 0, 0);
    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.555);
 }
 .img2{
    display: block;
    margin: auto;
    margin-top: 20px;
-   border: 1px solid black;
+   border: 1px solid rgb(0, 0, 0);
    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.555);
 }
 
@@ -134,11 +166,7 @@ main section{
    margin-left: 30px;
    
 }
-ul{
-   height: 90px;
-  
-   
-}
+
 
 footer{
     text-align: center;
@@ -153,4 +181,18 @@ footer p{
  text-align: right;
  margin-top: 60px;
 
+}
+footer a{
+   text-decoration: none;
+   transition-duration: 1s;
+   color: #E8BCB9;
+}
+footer a:hover{
+   text-decoration: underline;
+
+}
+footer a:active{
+   background-color: black;
+  
+   color: slategray;
 }
