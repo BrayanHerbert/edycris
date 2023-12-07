@@ -43,7 +43,7 @@
 
  header{
     background-image: linear-gradient(to top, var(--color1), var(--color2));
-    height: 173px;
+    height: 200px;
     
 
  }
@@ -67,7 +67,7 @@ nav{
 }
 nav > a{
    text-decoration: none;
-   padding: 19px;
+   padding: 9px;
    color: #E8BCB9;
    transition-duration: .7s;
    border-radius: 30px;
@@ -75,6 +75,7 @@ nav > a{
 }
 nav > a:hover{
 background-color: var(--color3);
+padding: -50px;
 
 
   
