@@ -37,7 +37,7 @@ header h1{
 }
 header p{
     padding-bottom: 30px;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 h2{
     background-image: linear-gradient(to right, black, rgb(71, 71, 71));
@@ -54,6 +54,7 @@ nav a{
     text-decoration: none;
     padding: 20px;
     transition-duration: .5s;
+    
    
 }
 nav > a:hover{
@@ -108,7 +109,7 @@ h2{
     background-image: url(imagens/img5.jpeg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center top;
+    background-position: center center;
     height: 80vh;
 }
 #img06{
@@ -140,7 +141,7 @@ section.imagem{
 }
 footer p{
     text-align: center;
-    background-color: black;
+    background-image: linear-gradient(to right, black, rgb(73, 73, 73));
     color: white;
     padding: 30px;
 }
