@@ -94,28 +94,28 @@ h2{
     background-image: url(imagens/img4.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: left center;
+    background-position: center center;
     height: 80vh;
 }
 #img04{
-    background-image: url(imagens/img2-m.jpg);
+    background-image: url(imagens/img2.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center top;
     height: 80vh;
 }
 #img05{
-    background-image: url(imagens/img5.jpg);
+    background-image: url(imagens/img5.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center top;
     height: 80vh;
 }
 #img06{
-    background-image: url(imagens/img6.jpg);
+    background-image: url(imagens/img6.jpeg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center top;
+    background-position: center center;
     height: 80vh;
 }
 
