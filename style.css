@@ -150,7 +150,7 @@ section{
 .img{
    display: block;
    margin: auto;
-   margin-left: 50%x;
+   margin-left: -15px;
    border: 1px solid rgb(0, 0, 0);
    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.555);
 }
@@ -158,6 +158,7 @@ section{
    display: block;
    margin: auto;
    margin-top: 20px;
+   margin-left: -15px;
    border: 1px solid rgb(0, 0, 0);
    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.555);
 }
