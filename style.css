@@ -121,8 +121,8 @@ main h2{
     padding: 20px;
     text-align: center;
     margin-top: 10px;
-     margin-left: -15px;
-     border-radius: 10px 10px 0px 0px;
+    margin-left: -15px;
+    border-radius: 10px 10px 0px 0px;
     
     
 }
@@ -150,15 +150,16 @@ section{
 .img{
    display: block;
    margin: auto;
-   margin-left: -15px;
+   
    border: 1px solid rgb(0, 0, 0);
    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.555);
 }
+   
 .img2{
    display: block;
    margin: auto;
    margin-top: 20px;
-   margin-left: -15px;
+   
    border: 1px solid rgb(0, 0, 0);
    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.555);
 }
