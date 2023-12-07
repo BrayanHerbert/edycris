@@ -121,7 +121,7 @@ main h2{
     padding: 20px;
     text-align: center;
     margin-top: 10px;
-     margin-left: 30px;
+     margin-left: -15px;
      border-radius: 10px 10px 0px 0px;
     
     
@@ -142,8 +142,8 @@ section ul{
    margin-left: 30px;
 }
 section{
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding: 10px;
+   margin-left: 50px;
    box-shadow: 0px 0px 8px black
 }
 
@@ -165,7 +165,7 @@ section{
 
 main section{
    background-color: white;
-   margin-left: 30px;
+   margin-left: -15px;
    
 }
 
