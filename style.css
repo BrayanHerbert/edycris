@@ -143,7 +143,7 @@ section.imagem{
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.658);
 }
 
-main > p{
+.p1{
     text-align: center;
     background-image: linear-gradient(to right, rgb(161, 161, 161), rgb(138, 138, 138), rgb(100, 100, 100));
 }  
