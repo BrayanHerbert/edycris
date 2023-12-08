@@ -14,8 +14,6 @@
 *{
     margin: 0px;
     padding: 0px;
-   
-    
 }
 html, body{
     background-color: slategrey;
@@ -24,10 +22,12 @@ html, body{
     font-size: 1empx;
 }
 header{
-    background-color: black;
-    color: white;
-    text-align: center;
-    height: 250px;
+      text-align: center;
+      background-color: black;
+      padding-bottom: 30px;
+      color: white;
+    
+
 }
 
 header h1{
@@ -99,6 +99,8 @@ h2{
     background-attachment: scroll;
     background-position: center center;
     height: 80vh;
+
+    
 }
 #img04{
     background-image: url(imagens/img2.jpg);
