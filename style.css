@@ -71,17 +71,17 @@ h2{
     text-align: center;
 }
 .normal > p{
-    background-color: white;
+    background-image: linear-gradient(to right, rgb(219, 219, 219), rgb(138, 138, 138), rgb(121, 121, 121));
     padding-left: 30px;
 }
 .imagem{
-    background-color: rgb(161, 161, 161);
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 #img01{
     background-image: url(imagens/img1.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: bottom center;
     height: 80vh;
     
@@ -96,7 +96,7 @@ h2{
 #img03{
     background-image: url(imagens/img4.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center center;
     height: 80vh;
 }
@@ -110,8 +110,8 @@ h2{
 #img05{
     background-image: url(imagens/img9.jpg);
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center top;
+    background-attachment: scroll;
+    background-position: center center;
     height: 80vh;
 }
 #img06{
@@ -125,7 +125,7 @@ h2{
 #img07{
     background-image: url(imagens/img7.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center bottom;
     height: 80vh;
     
@@ -134,18 +134,25 @@ section{
     padding-top: 2vh;
     padding-bottom: 5vh;
     line-height: 3em;
-    background-color: white;
-    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.726);
+    background-image: linear-gradient(to right, rgb(219, 219, 219), rgb(138, 138, 138), rgb(121, 121, 121));
 }
 section.imagem{
     background-color: rgb(49, 49, 49);
-    color: white;
+    color: rgb(255, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.658);
 }
+
+main p{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(161, 161, 161), rgb(138, 138, 138), rgb(100, 100, 100));
+}  
+
 footer p{
     text-align: center;
     background-image: linear-gradient(to right, black, rgb(73, 73, 73));
     color: white;
-    padding: 30px;
+    padding: 10px;
 }
 footer a{
     text-decoration: none;
