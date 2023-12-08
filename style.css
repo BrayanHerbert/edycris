@@ -27,17 +27,19 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    height: 250px;
 }
 
 header h1{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-family: var(--font1);
-    font-size: 7vw;
+    font-size: 50px;
 }
 header p{
-    padding-bottom: 30px;
-    font-size: 3.5vw;
+     
+     font-size: 20px;
+    
 }
 h2{
     background-image: linear-gradient(to right, black, rgb(71, 71, 71));
@@ -46,13 +48,13 @@ h2{
 }
 nav{
     background-color: black;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     
 }
 nav a{
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 2vw;
     transition-duration: .5s;
     
    
@@ -106,14 +108,14 @@ h2{
     height: 80vh;
 }
 #img05{
-    background-image: url(imagens/img5.jpeg);
+    background-image: url(imagens/img9.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: center top;
     height: 80vh;
 }
 #img06{
-    background-image: url(imagens/img6.jpeg);
+    background-image: url(imagens/img8.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -129,8 +131,8 @@ h2{
     
 }
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
     line-height: 3em;
     background-color: white;
     
