@@ -26,6 +26,7 @@ header{
       background-color: black;
       padding-bottom: 30px;
       color: white;
+      
     
 
 }
@@ -35,6 +36,7 @@ header h1{
     padding-bottom: 30px;
     font-family: serif;
     font-size: 50px;
+    
    
 
 }
@@ -47,27 +49,32 @@ h2{
     background-image: linear-gradient(to right, black, rgb(71, 71, 71));
     color: white;
     padding: 10px;
+    text-align: center;
+
 }
 nav{
     background-color: black;
     padding-bottom: 30px;
- 
+    text-align: center;
+
     
 }
 nav a{
     color: white;
     text-decoration: none;
-    padding: 15px;
+    padding: 8px;
     transition-duration: .5s;
-    border: 1px solid rgb(48, 48, 48);
-    border-radius: 50vh;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.774)
     
     
    
 }
 nav  a:hover{
-    background-color: rgb(141, 141, 141);
-    border-radius: 50px;
+    background-color: rgb(185, 185, 185);
+   
+    
     
 
 }
@@ -75,9 +82,7 @@ nav  a:active{
     color: rgb(104, 104, 104);
     transition-duration: .1s;
 }
-h2{
-    text-align: center;
-}
+
 .normal > p{
     background-image: linear-gradient(to right, rgb(219, 219, 219), rgb(138, 138, 138), rgb(121, 121, 121));
     padding-left: 30px;
@@ -146,7 +151,9 @@ section{
     line-height: 3em;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.726);
     background-image: linear-gradient(to right, rgb(219, 219, 219), rgb(138, 138, 138), rgb(121, 121, 121));
+    
 }
+
 section.imagem{
     background-color: rgb(49, 49, 49);
     color: rgb(255, 0, 0);
@@ -156,13 +163,18 @@ section.imagem{
 .p1{
     text-align: center;
     background-image: linear-gradient(to right, rgb(161, 161, 161), rgb(138, 138, 138), rgb(100, 100, 100));
+    border: 1px 0px 0px white;
+   
 }  
 
 footer p{
     text-align: center;
     background-image: linear-gradient(to right, black, rgb(73, 73, 73));
     color: white;
-    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    
+    
 }
 footer a{
     text-decoration: none;
@@ -170,4 +182,5 @@ footer a{
 }
 footer a:hover{
     text-decoration: underline;
+
 }
