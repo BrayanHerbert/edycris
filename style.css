@@ -33,8 +33,10 @@ header{
 header h1{
     padding-top: 30px;
     padding-bottom: 30px;
-    font-family: var(--font1);
+    font-family: serif;
     font-size: 50px;
+   
+
 }
 header p{
      
@@ -49,21 +51,27 @@ h2{
 nav{
     background-color: black;
     padding-bottom: 30px;
+ 
     
 }
 nav a{
     color: white;
     text-decoration: none;
-    padding: 2vw;
+    padding: 15px;
     transition-duration: .5s;
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 50vh;
+    
     
    
 }
-nav > a:hover{
+nav  a:hover{
     background-color: rgb(141, 141, 141);
-    border-radius: 30px;
+    border-radius: 50px;
+    
+
 }
-nav > a:active{
+nav  a:active{
     color: rgb(104, 104, 104);
     transition-duration: .1s;
 }
